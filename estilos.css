@@ -1,0 +1,168 @@
+/*BODY*/
+body{
+    margin: 0;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.body {
+    background-color: #d2dae2;
+}
+
+
+
+
+
+
+/*HEADER*/
+.header::after {
+    content:'';
+    height: 100VH;
+    width: 100%;
+    background-image: url(images/header_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: blur(10px);
+  -webkit-filter: blur(10px);
+  transition: all 1000ms;
+}
+
+.header:hover::after {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+  
+  .header:hover .header-content {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+
+.header-content {
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 35%;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    transition: all 1000ms;
+}
+
+.logo-ritmo{
+    border-radius:50%;
+    width: 200px;
+}
+
+
+
+
+/*MENU*/
+.menu {
+    background-color: #f1f2f6;
+    color: darkslategray;
+}
+
+
+.proyect {
+    font-size: 1cm;
+    padding-top: 20px;
+    text-align: center;
+    color: darkslategray;
+}
+.publi h3 {
+    padding-top: 20px;
+    text-align: center;
+    color: darkslategray;
+}
+
+.articulo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:auto;
+}
+
+.articulo p {
+    font-size: larger;
+    text-align: justify;
+    color: darkslategray;   
+}
+
+.img {
+    text-align: center;
+    margin: auto;
+}
+
+
+/* BOTON WP */
+.container-boton{
+    background-color: #2e6329;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 45px;
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+/*FOOTER*/
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #f1f2f6;
+    color: darkslategray;
+}
+
+@media (max-width: 560px) {
+    .body {
+        width: fit-content;
+    }
+   .header::after {
+    height: 70VH;
+   }   
+
+   .header-content {
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    left: 12%;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    transition: all 1000ms;
+}
+
+    .container-boton {
+        right: 15px;
+    }
+
+    .articulo {
+        display: block;
+        margin:auto;
+    }
+
+
+}
