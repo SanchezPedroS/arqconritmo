@@ -136,7 +136,7 @@ footer {
     color: darkslategray;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 640px) {
   .body {
       width: fit-content;
   }
