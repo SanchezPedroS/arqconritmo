@@ -75,4 +75,9 @@ footer {
     position: fixed;
     bottom: 0%;
   }
+  .container-boton{
+    position: fixed;
+    bottom: 35px;
+    right: 28px;
+    }
 }
