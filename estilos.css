@@ -147,8 +147,8 @@ footer {
  .header-content {
   position: absolute;
   z-index: 1;
-  top: 15%;
-  left: 8%;
+  top: 25%;
+  left: 6%;
   text-align: center;
   width: 400px;
   height: 450px;
@@ -156,7 +156,7 @@ footer {
 }
 
   .container-boton {
-      right: 50px;
+      right: 30px;
   }
 
   .articulo {
