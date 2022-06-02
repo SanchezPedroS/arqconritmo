@@ -68,6 +68,11 @@ footer {
     background-color: #f1f2f6;
     color: darkslategray;
     margin-top: 49px;
+}
+
+@media (max-width: 640px) {
+  footer {
     position: fixed;
     bottom: 0%;
+  }
 }
