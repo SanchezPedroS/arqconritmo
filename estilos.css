@@ -136,4 +136,33 @@ footer {
     color: darkslategray;
 }
 
+@media (max-width: 300px) {
+  .body {
+      width: fit-content;
+  }
+ .header::after {
+  height: 70VH;
+ }   
 
+ .header-content {
+  position: absolute;
+  z-index: 1;
+  top: 5%;
+  left: 12%;
+  text-align: center;
+  width: 400px;
+  height: 450px;
+  transition: all 1000ms;
+}
+
+  .container-boton {
+      right: 15px;
+  }
+
+  .articulo {
+      display: block;
+      margin:auto;
+  }
+
+
+}
