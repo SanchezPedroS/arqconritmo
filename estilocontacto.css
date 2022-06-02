@@ -68,4 +68,6 @@ footer {
     background-color: #f1f2f6;
     color: darkslategray;
     margin-top: 49px;
+    position: fixed;
+    bottom: 0%;
 }
