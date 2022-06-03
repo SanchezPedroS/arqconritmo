@@ -4,7 +4,7 @@
  $email = $_POST['email'];
  $phone = $_POST['phone'];
  $message = $_POST['message'];
- $para = 'pedro.ssanchez@email.com';
+ $para = 'pedro.ssanchez@hotmail.com';
  $titulo = 'Hola, queria mas informacion';
   
  $msjCorreo = "Nombre: $name\n E-Mail: $email\n Telefono: $phone\n Mensaje:\n $message";
