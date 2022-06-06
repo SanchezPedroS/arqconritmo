@@ -148,11 +148,16 @@ footer {
   position: absolute;
   z-index: 1;
   top: 17%;
-  left: 60%;
+  left: 75%;
   text-align: center;
    width: 250px;
    height: 300px;
   transition: all 1000ms;
+}
+    
+  .logo-ritmo{
+    border-radius:50%;
+    width: 140px;
 }
 
   .container-boton {
