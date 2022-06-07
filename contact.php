@@ -20,6 +20,6 @@
     //ENVIANDO MAIL
 
     mail($destinatario, $asunto, $contenido);
-    header('Location:msjEnviado.html')
+    header('Location:msjEnviado.html');
 
 ?>
