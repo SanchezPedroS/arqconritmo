@@ -148,10 +148,10 @@ footer {
   position: absolute;
   z-index: 1;
   top: 17%;
-  left: 24%;
+  left: 26%;
   text-align: justify;
-   width: 150px;
-   height: 200px;
+   width: 180px;
+   height: 230px;
   transition: all 1000ms;
 }
     
@@ -170,7 +170,7 @@ footer {
   }
     
    .proyect {
-       font-size: 0,6cm;
+       font-size: medium;
     }
     
 
