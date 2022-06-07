@@ -148,9 +148,9 @@ footer {
   position: absolute;
   z-index: 1;
   top: 17%;
-  left: 15%;
+  left: 20%;
   text-align: center;
-   width: 130px;
+   width: 145px;
    height: 195px;
   transition: all 1000ms;
 }
