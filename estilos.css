@@ -173,7 +173,7 @@ footer {
        font-size: xx-large;
     }
     
-  .rotar p img {
+  .rotar {
     display: flex;
     flex-direction: row-reverse;
     }
