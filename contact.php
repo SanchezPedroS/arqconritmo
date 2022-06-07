@@ -1,20 +1,25 @@
 <?php
- 
- $name = $_POST['name' + 'lname'];
- $email = $_POST['email'];
- $phone = $_POST['phone'];
- $message = $_POST['message'];
- $para = 'pedro.ssanchez@hotmail.com';
- $titulo = 'Hola, queria mas informacion';
-  
- $msjCorreo = "Nombre: $name\n E-Mail: $email\n Telefono: $phone\n Mensaje:\n $message";
-  
- if ($_POST['submit']) {
- if (mail ($para, $titulo, $msjCorreo)) {
- echo 'Gracias por comunicarse con nosotros, a la brevedad nos pondremos en contacto';
- } else {
- echo 'Falló el envio, intente nuevamente';
- }
- }
- 
+
+    //llamando a los campos
+
+    $nombre = $_POST ['name'];
+    $email = $_POST ['email'];
+    $phone = $_POST ['phone'];
+    $message = $_POST ['message'];
+
+    //DATOS PARA EL CORREO
+
+    $destinatario = "pedro.ssanchez@hotmail.com";
+    $asunto = "Contacto desde la web";
+    
+    $contenido = "De: $nombre \n";
+    $contenido .= "Correo: $email \n";
+    $contenido .= "Telefono: $phone \n";
+    $contenido .= "$message";
+
+    //ENVIANDO MAIL
+
+    mail($destinatario, $asunto, $contenido);
+    header('Location:msjEnviado.html')
+
 ?>
