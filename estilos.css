@@ -173,6 +173,11 @@ footer {
        font-size: xx-large;
     }
     
+  .rotar {
+    display: flex;
+    flex-direction: row-reverse;
+    }
+    
 
 
 }
