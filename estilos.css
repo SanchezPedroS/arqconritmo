@@ -148,10 +148,10 @@ footer {
   position: absolute;
   z-index: 1;
   top: 17%;
-  left: 25%;
+  left: 15%;
   text-align: center;
-   width: 100px;
-   height: 150px;
+   width: 130px;
+   height: 195px;
   transition: all 1000ms;
 }
     
