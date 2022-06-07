@@ -177,6 +177,15 @@ footer {
     transform: rotateX(180deg);
     }
     
+   .rotar img {
+     transform: rotateX(180deg);  
+    }
+    
+    .rotar p {
+        transform: rotateX(180deg);
+    }
+    
+    
 
 
 }
