@@ -141,7 +141,8 @@ footer {
       width: fit-content;
   }
  .header::after {
-  height: 70VH;
+  height: 95VH;
+  width:100%;   
  }   
 
  .header-content {
