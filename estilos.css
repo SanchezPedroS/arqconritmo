@@ -160,7 +160,10 @@ footer {
     border-radius:50%;
     width: 140px;
 }
-
+    
+    .menu {
+        width: 100%;
+    }
   .container-boton {
       right: 50px;
   }
